@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="css/style.css">
+
+    
+    <title>ABLY</title>
+</head>
+<body>
+    <header>
+        <img src="img/ABLY.jpg" alt="ABLY" class="logo">
+        <div id="Menu">
+            <div class="searchBox">
+                <input type="text" id="search">
+                <button><img src="img/searchicon.png" alt=""></button>
+            </div>
+            <menu>
+                <article class="person">
+                    <a href="#"><img src="img/personicon.png" alt=""></a>
+                </article>
+                <article class="heart">
+                    <a href="#"><img src="img/hearticon.png" alt=""></a>
+                </article>
+                <article class="cart">
+                    <a href="#"><img src="img/carticon.png" alt=""></a>
+                </article>
+            </menu>
+        </div>
+    </header>
+        <nav>
+            <ul id="mainMenu">
+                <div class="bg"></div>
+                <li class="active"><a href="#">☰</a>
+                    
+                </li>
+                <li><a href="#">HOME</a></li>
+                <li><a href="#">상의</a>
+                    
+                    <ul id="subMenu">
+                        <li><a href="#">후드</a></li>
+                        <li><a href="#">맨투맨</a></li>
+                        <li><a href="#">니트</a></li>
+                        <li><a href="#">셔츠</a></li>
+                        <li><a href="#">긴소매티셔츠</a></li>
+                        <li><a href="#">블라우스</a></li>
+                        <li><a href="#">조끼</a></li>
+                        <li><a href="#">반소매티셔츠</a></li>
+                        <li><a href="#">민소매</a></li>
+                    </ul>
+
+                </li>
+                <li><a href="#">아우터</a>
+                    <ul id="subMenu">
+                        <li><a href="#">가디건</a></li>
+                        <li><a href="#">바람막이</a></li>
+                        <li><a href="#">자켓</a></li>
+                        <li><a href="#">집업/범퍼</a></li>
+                        <li><a href="#">야상</a></li>
+                        <li><a href="#">플리스</a></li>
+                        <li><a href="#">코트</a></li>
+                        <li><a href="#">패딩</a></li>
+                    </ul>
+                </li>
+                <li><a href="#">하의</a>
+                    <ul id="subMenu">
+                        <li><a href="#">롱팬츠</a></li>
+                        <li><a href="#">슬랙스</a></li>
+                        <li><a href="#">데님</a></li>
+                        <li><a href="#">숏팬츠</a></li>
+                        <li><a href="#">미디/롱스커트</a></li>
+                        <li><a href="#">미니스커트</a></li>
+                    </ul>
+                </li>
+                <li><a href="#">원피스/세트</a>
+                    <ul id="subMenu">
+                        <li><a href="#">미니원피스</a></li>
+                        <li><a href="#">롱원피스</a></li>
+                        <li><a href="#">투피스</a></li>
+                        <li><a href="#">점프수트</a></li>
+                    </ul>
+                </li>
+                <li><a href="#">샥-출발</a></li>
+                <li><a href="#">주얼리</a></li>
+            </ul>
+        </nav>
+
+        
+    <main>
+        <div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+              <div class="carousel-item active" data-bs-interval="2000">
+                <img src="img/banner-img1.png" class="d-block w-100" alt="...">
+              </div>
+              <div class="carousel-item" data-bs-interval="2000">
+                <img src="img/banner-img2.png" class="d-block w-100" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img src="img/banner-img3.png" class="d-block w-100" alt="...">
+              </div>
+            </div>
+
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+        
+       
+        
+
+        <div class="item">
+            <h2>회원님을 위한 추천 상품</h2>
+
+        <div class="itemes">
+            <article>
+                <a href="#">
+                    <img src="img/item1.jpg" alt="">
+                    <div class="price">
+                        <span class="sale">28%</span><span class="won">25,000</span>
+                    </div>
+                    <div class="store">
+                        <span>미오<br>[숏,기본,롱][XS~2XL] vintage siwa-washing 2way wide denim! 4col
+                        </span>
+                    </div>
+                </a>
+            </article>
+            <article>
+                <a href="#">
+                    <img src="img/item2.jpg" alt="">
+                    <div class="price">
+                        <span class="sale">24%</span><span class="won">18,710</span>
+                    </div>
+                    <div class="store">
+                        <span>비앤드지투<br>가을*[5col/예쁜핏] 엠퍼 후드 레터링 오버핏 데일리 맨투맨
+                        </span>
+                    </div>
+                </a>
+            </article>
+            <article>
+                <a href="#">
+                    <img src="" alt="">
+                    <div class="price">
+                        <span class="sale">28%</span><span class="won">25,000</span>
+                    </div>
+                    <div class="store">
+                        <span>미오<br>[숏,기본,롱][XS~2XL] vintage siwa-washing 2way wide denim! 4col
+                        </span>
+                    </div>
+                </a>
+            </article>
+            <article>
+                <a href="#">
+                    <img src="" alt="">
+                    <div class="price">
+                        <span class="sale">28%</span><span class="won">25,000</span>
+                    </div>
+                    <div class="store">
+                        <span>미오<br>[숏,기본,롱][XS~2XL] vintage siwa-washing 2way wide denim! 4col
+                        </span>
+                    </div>
+                </a>
+            </article>
+            <article>
+                <a href="#">
+                    <img src="img.jpg" alt="">
+                    <div class="price">
+                        <span class="sale">28%</span><span class="won">25,000</span>
+                    </div>
+                    <div class="store">
+                        <span>미오<br>[숏,기본,롱][XS~2XL] vintage siwa-washing 2way wide denim! 4col
+                        </span>
+                    </div>
+                </a>
+            </article>
+            <article>
+                <a href="#">
+                    <img src="" alt="">
+                    <div class="price">
+                        <span class="sale">28%</span><span class="won">25,000</span>
+                    </div>
+                    <div class="store">
+                        <span>미오<br>[숏,기본,롱][XS~2XL] vintage siwa-washing 2way wide denim! 4col
+                        </span>
+                    </div>
+                </a>
+            </article>
+            <article>
+                <a href="#">
+                    <img src="" alt="">
+                    <div class="price">
+                        <span class="sale">28%</span><span class="won">25,000</span>
+                    </div>
+                    <div class="store">
+                        <span>미오<br>[숏,기본,롱][XS~2XL] vintage siwa-washing 2way wide denim! 4col
+                        </span>
+                    </div>
+                </a>
+            </article>
+            <article>
+                <a href="#">
+                    <img src="" alt="">
+                    <div class="price">
+                        <span class="sale">28%</span><span class="won">25,000</span>
+                    </div>
+                    <div class="store">
+                        <span>미오<br>[숏,기본,롱][XS~2XL] vintage siwa-washing 2way wide denim! 4col
+                        </span>
+                    </div>
+                </a>
+            </article>
+        </div>
+        </div>
+    </main>
+
+
+    <footer></footer>
+
+
+    <script src="js/script.js"></script>
+  </body>
+</body>
+</html>
